@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Formulaire d'inscription
+{% endblock %}
+
+{% block body %}
+	<div class="container mt-5">
+		<h1 class="text-center">Inscription</h1>
+
+		{# Méthode form + je lui passe la variable (form)#}
+		{{ form(form) }}
+		</div>
+	{% endblock %}
