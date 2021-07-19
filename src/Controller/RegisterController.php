@@ -45,9 +45,6 @@ class RegisterController extends AbstractController
 
             $this->entityManager->persist($user);
             $this->entityManager->flush();
-
-            // J'enregistre en BDD 
-
         }
 
         // Je passe le formulaire en variable à ma template
